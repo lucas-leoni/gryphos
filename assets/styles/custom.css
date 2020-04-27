@@ -35,33 +35,35 @@ header {
 }
 .intro-texto {
     color: #FEFEFA;
+    position: relative;
 }
 .p-1 {
     font-size: 45px;
     font-weight: bold;
     text-align: center;
     line-height: 1.5;
+    padding-bottom: 15px;
+}
+.background-img {
+    position: absolute;
+    width: 1349px;
+    top: 95px;
+
 }
 .p-2 {
     font-size: 45px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 40px;
+    position: relative;
 }
 .p-3 {
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
+    position: relative;
+    line-height: 1.25;
 }
-.p-4 {
-    font-size: 25px;
-    text-align: center;
-}
-.p-5 {
-    font-size: 25px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-.get-started {
+.botao-get {
     background-color: #45BCD4;
     color: #FEFEFA;
     border-radius: 25px;
@@ -69,14 +71,52 @@ header {
     height: 40px;
     position: relative;
     left: 574.5px;
+    margin-top: 40px;
+}
+.get-started {
+    color: #FEFEFA;
+    font-weight: bold;
+    text-decoration: none;
+}
+.section-2 {
+    position: relative;
+    margin-top: 65px;
+    background-color:#181E2A;
+    height: 650px;
 }
 .access-anywhere {
     width: 600px;
     position: relative;
+    padding-left: 37.25px;
+    padding-right: 37.25px;
 }
 .access-anywhere-img{
     position: relative;
     left: 265px;
+    padding-bottom: 20px;
+}
+.p-4 {
+    text-align: center;
+    color: #FEFEFA;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.p-5 {
+    text-align: center;
+    color: #FEFEFA;
+    font-size: 20px;
+}
+.security {
+    width: 600px;
+    position: relative;
+    padding-left: 37.25px;
+    padding-right: 37.25px;
+}
+.security-img {
+    position: relative;
+    left: 900px;
+    bottom: 210px;
     padding-bottom: 20px;
 }
 .p-6 {
@@ -85,34 +125,364 @@ header {
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 15px;
+    position: relative;
+    left: 630px;
+    bottom: 210px;
 }
 .p-7 {
     text-align: center;
     color: #FEFEFA;
     font-size: 20px;
+    position: relative;
+    left: 630px;
+    bottom: 210px;
 }
-.p-8 {
-    text-align: center;
-    color: #FEFEFA;
-    font-size: 20px;
-}
-.security {
+.real-time {
     width: 600px;
     position: relative;
+    padding-left: 37.25px;
+    padding-right: 37.25px;
 }
-.security-img {
+.real-time-img {
     position: relative;
-    left: 900px;
-    bottom: 210px;
+    left: 265px;
+    bottom: 100px;
     padding-bottom: 20px;
 }
-.p-9 {
+.p-8 {
     text-align: center;
     color: #FEFEFA;
     font-size: 25px;
     font-weight: bold;
     padding-bottom: 15px;
     position: relative;
+    bottom: 90px;
+    left: 5px;
+}
+.p-9 {
+    text-align: center;
+    color: #FEFEFA;
+    font-size: 20px;
+    position: relative;
+    bottom: 90px;
+    left: 5px;
+}
+.store {
+    width: 600px;
+    position: relative;
     left: 630px;
-    bottom: 210px;
+    bottom: 280px;
+    padding-left: 37.25px;
+    padding-right: 37.25px;
+}
+.store-img {
+    position: relative;
+    padding-bottom: 20px;
+    left: 255px;
+    bottom: 10px;
+}
+.p-10 {
+    text-align: center;
+    color: #FEFEFA;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    position: relative;
+}
+.p-11 {
+    text-align: center;
+    color: #FEFEFA;
+    font-size: 20px;
+    position: relative;
+}
+.section-3 {
+    background-color:#181E2A;
+    padding-left: 45px;
+    padding-right: 15px;
+    position: relative;
+}
+.stay {
+    width: 570px;
+    position: absolute;
+    left: 725px;
+    top: 120px;
+}
+.p-12 {
+    font-size: 45px;
+    line-height: 1.25;
+    color: #FEFEFA;
+    font-weight: bold;
+    text-align: left;
+}
+.p-13 {
+    color: #FEFEFA;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 20px;
+}
+.p-14 {
+    color: #FEFEFA;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.botao-see {
+    color: #62DBD9;
+    font-size: 18px;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px solid #62DBD9;
+    padding-bottom: 5px;
+    position: relative;
+}
+.arrow {
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+.section-4 {
+    background-color:#181E2A;
+    position: relative;
+    height: 770px;
+}
+.aspas{
+    position: absolute;
+    top: 163px;
+    left: 65px;
+}
+.profile-1 {
+    background-color: #21293C;
+    width: 24%;
+    color: #FEFEFA;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    left: 75px;
+    top: 200px;
+    border-radius: 3px;
+}
+.profile-2 {
+    background-color: #21293C;
+    width: 24%;
+    color: #FEFEFA;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 480px;
+    top: 200px;
+    border-radius: 3px;
+}
+.profile-3 {
+    background-color: #21293C;
+    width: 24%;
+    color: #FEFEFA;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 890px;
+    top: 200px;
+    border-radius: 3px;
+}
+.img-profile-1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.p-15 {
+    font-size: 16px;
+    color: #FEFEFA;
+    font-weight: bold;
+    position: absolute;
+    left: 70px;
+    bottom: 42.5px;
+}
+.p-16 {
+    font-size: 12px;
+    color: #FEFEFA;
+    position: absolute;
+    left: 70px;
+    bottom: 25px;
+}
+.img-profile-2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.p-17 {
+    font-size: 16px;
+    color: #FEFEFA;
+    font-weight: bold;
+    position: absolute;
+    left: 70px;
+    bottom: 42.5px;
+}
+.p-18 {
+    font-size: 12px;
+    color: #FEFEFA;
+    position: absolute;
+    left: 70px;
+    bottom: 25px;
+}
+.img-profile-3 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.p-19 {
+    font-size: 16px;
+    color: #FEFEFA;
+    font-weight: bold;
+    position: absolute;
+    left: 70px;
+    bottom: 42.5px;
+}
+.p-20 {
+    font-size: 12px;
+    color: #FEFEFA;
+    position: absolute;
+    left: 70px;
+    bottom: 25px;
+}
+.get-early {
+    position: relative;
+    top: 400px;
+    background-color: #21293C;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.p-21 {
+    font-size: 45px;
+    color: #FEFEFA;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.p-22 {
+    font-size: 18px;
+    color: #FEFEFA;
+    text-align: center;
+    line-height: 1.25;
+    padding-bottom: 30px;
+}
+.descricao-form {
+    color: #8B929C;
+    position: relative;
+    z-index: 1;
+    left: 125px;
+}
+.input-form {
+    width: 55%;
+    position: relative;
+    right: 45px;
+    height: 35px;
+    border-radius: 20px;
+}
+.botao-form {
+    width: 20%;
+    color: #FEFEFA;
+    background-color: #45BCD4;
+    height: 45px;
+    border-radius: 25px;
+    position: relative;
+    right: 20px;
+}
+footer {
+    background-color: #0C1524;
+    position: relative;
+    height: 500px;
+}
+.logo-e-texto {
+    height: 500px;
+    position: relative;
+    width: 40%;
+}
+.logo-2 {
+    position: relative;
+    top: 175px;
+    left: 70px;
+}
+.location-img {
+    position: relative;
+    top: 230px;
+    right: 110px;
+}
+.p-23 {
+    font-size: 18px;
+    color: #FEFEFA;
+    text-align: left;
+    position: relative;
+    top: 205px;
+    left: 110px;
+    line-height: 1.25;
+}
+.numero-email {
+    position: absolute;
+    width: 20%;
+    top: 265px;
+    left: 500px;
+}
+.numero {
+    font-size: 18px;
+    color: #FEFEFA;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
+.email {
+    font-size: 18px;
+    color: #FEFEFA;
+    position: relative;
+    left: 50px;
+    bottom: 20px;
+}
+.about-us {
+    position: absolute;
+    left: 800px;
+    top: 255px;
+    width: 20%;
+}
+.p-24 {
+    font-size: 18px;
+    color: #FEFEFA;
+    text-align: left;
+    line-height: 2;
+}
+.contact-us {
+    width: 20%;
+    position: absolute;
+    left: 950px;
+    top: 255px;
+}
+.p-25 {
+    font-size: 18px;
+    color: #FEFEFA;
+    text-align: left;
+    line-height: 2;
+}
+.icones {
+    width: 13%;
+    position: absolute;
+    left: 1150px;
+    bottom: 220px;
 }
